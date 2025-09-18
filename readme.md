@@ -5,7 +5,12 @@
   <li>Sign in &-nbsp; icons --> creates gap </li>
   <li>.cart-value - aspect-ratio:1</li>
   <li>@media screen and (max-width: 780px){}</li>
-  <li>box-shadow: rgba(0, 0, 0, 0.05) 8px 8px  8px, rgba(0, 0, 0, 0.05) inset;</li>
+  <li>box-shadow: rgba(0, 0, 0, 0.05) 8px 8px  8px, rgba(0, 0, 0, 0.05) 8px 8px 8px inset;</li>
+  <li>.content,.image-container{flex: 1;}</li>
+  <li>margin-block: 2rem;</li>
+  <li>set the line height to width size to center items</li>
+  <li>flex-wrap: wrap; and flex-basis: 300px;</li>
+  
 </ul>
 
 <h3>JavaScript</h3>
