@@ -64,6 +64,22 @@ img{
     display: block;
 }
 
+.p-top{
+    padding-top: 10rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.mt-4{
+    margin-top: 4rem;
+}
+
+
+
+
+
 
 /* HEADER STYLING */
 .navbar{
@@ -127,7 +143,8 @@ img{
 }
 
 .content,
-.image-container{
+.image-container,
+.service-card{
     flex: 1;
     flex-basis: 300px;
 }
@@ -169,6 +186,35 @@ p{
     background: var(--lead);
     color: var(--pure-white);
 }
+
+    /* SECTION 01 */
+
+h5{
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+    color: var(--gold-finger);
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 3.7rem;
+    text-transform: capitalize;
+    color: var(--lead);
+}
+
+h3{
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: var(--lead);
+}
+
+.service-card h3{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+
 
 
 /* FOOTER STYLING */
