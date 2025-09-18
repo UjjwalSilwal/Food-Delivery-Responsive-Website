@@ -11,16 +11,20 @@
   <li>set the line height to width size to center items</li>
   <li>flex-wrap: wrap; and flex-basis: 300px;</li>
   <li>filter: drop-shadow();</li>
+  <li>object-fit: cover;</li>
   
 </ul>
 
 <h3>JavaScript</h3>
 <ul>
-  <li></li>
+  <li><script defer src="main.js"></script> --> loads the content first then JS </li>
 </ul>
 
 <h3>links</h3>
 <ul>
   <li>Googel Fonts - Roboto Condensed - imports - .css</li>
   <li>font Awesome cdnjs - copy link tag - HTML-head  </li>
+  <li>Swiper js - get started - CDN - copy link - HTML-head</li>
+  <li>Swiper js - get started - CDN - copy script - HTML-body</li>
+  <li>Swiper js - get started - Resources - Demos</li>
 </ul>
