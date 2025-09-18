@@ -10,6 +10,7 @@
   <li>margin-block: 2rem;</li>
   <li>set the line height to width size to center items</li>
   <li>flex-wrap: wrap; and flex-basis: 300px;</li>
+  <li>filter: drop-shadow();</li>
   
 </ul>
 
