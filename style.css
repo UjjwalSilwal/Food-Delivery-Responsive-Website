@@ -84,6 +84,9 @@ img {
     margin: auto;
 }
 
+.mt-one-half{
+    margin-top: 1.5rem;
+}
 
 
 
@@ -148,7 +151,8 @@ img {
 /* SECTION STYLING */
 
 .hero-section {
-    min-height: calc(100vh - 14vh);
+    min-height: 5px;
+    min-width: 10px;
 }
 
 .content,
@@ -196,6 +200,7 @@ p {
     background: var(--lead);
     color: var(--pure-white);
 }
+
 
 /* SECTION 01 */
 
@@ -298,6 +303,7 @@ h4 {
     background: var(--hint-yellow);
     padding: 3rem 6rem;
     border-radius: 3rem;
+    width: 100%;
 }
 
 .app-container .content h2{
@@ -319,6 +325,7 @@ h4 {
     background: var(--pure-white);
     box-shadow: rgba(0, 0, 0, 0.1) 0 5px 8px ;
     border-radius: 1rem;
+    margin: 4rem auto 0 auto;
 }
 
 input[type="email"]{
@@ -340,6 +347,43 @@ input[type="email"]:focus{
 
 /* FOOTER STYLING */
 
+.footer-container{
+    margin-top: 10rem;
+    padding-block: 4rem;
+    background: var(--hint-yellow);
+}
 
+.footer-container .flex{
+    align-items: flex-start;
+    
+}
 
-/* MEDIA QUERIES */
+.footer-wrapper{
+    flex: 1;
+    flex-basis: 150px;
+}
+
+.footer-wrapper:nth-child(1){
+    flex: 2;
+    flex-basis: 300px;
+}
+
+.footer-wrapper .social-icon{
+    background: var(--pure-white);
+}
+
+.footer-wrapper .social-icon:hover{
+    background: var(--lead);
+    color: var(--pure-white);
+}
+
+.footer-link{
+    color: grey;
+    font: 1.1rem;
+    transition: .3s ease-in-out;
+}
+
+.footer-link:hover{
+    color: var(--lead);
+    cursor: pointer;
+}
