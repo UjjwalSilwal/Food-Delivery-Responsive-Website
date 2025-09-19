@@ -13,6 +13,8 @@
   <li>filter: drop-shadow();</li>
   <li>object-fit: cover;</li>
   <li>input[type="email"]{}</li>
+  <li>inset: 0 0 0 auto;</li>
+  <li>.cart-list::-webkit-scrollbar{}</li>
   
 </ul>
 
