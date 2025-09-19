@@ -12,6 +12,7 @@
   <li>flex-wrap: wrap; and flex-basis: 300px;</li>
   <li>filter: drop-shadow();</li>
   <li>object-fit: cover;</li>
+  <li>input[type="email"]{}</li>
   
 </ul>
 
