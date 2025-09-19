@@ -1,3 +1,13 @@
+<h2>Output</h2>
+<p align="center">
+  <img src="screenshots/1.png" alt="" width="80%">
+  <img src="screenshots/2.png" alt="" width="80%">
+  <img src="screenshots/3.png" alt="" width="80%">
+  <img src="screenshots/4.png" alt="" width="80%">
+  <img src="screenshots/5.png" alt="" width="80%">
+  <img src="screenshots/6.png" alt="" width="80%">
+</p>
+
 <h3>CSS</h3>
 <ul>
   <li>Font Family - Roboto Condensed</li>
@@ -15,12 +25,15 @@
   <li>input[type="email"]{}</li>
   <li>inset: 0 0 0 auto;</li>
   <li>.cart-list::-webkit-scrollbar{}</li>
+  <li>.item.slide-out{}</li>
   
 </ul>
 
 <h3>JavaScript</h3>
 <ul>
   <li><script defer src="main.js"></script> --> loads the content first then JS </li>
+  <li>(e)=>{e.preventDefault();} --> helps to remove default like reloading/refreshing page</li>
+  <li>mobileMenu.classList.toggle('mobile-menu-active');</li>
 </ul>
 
 <h3>links</h3>
